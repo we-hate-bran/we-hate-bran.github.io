@@ -1,0 +1,22 @@
+{
+  "name": "we-hate-bran.github.io",
+  "version": "1.0.0",
+  "description": "We hate bran",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-hate-bran/we-hate-bran.github.io.git"
+  },
+  "author": "Luis Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/we-hate-bran/we-hate-bran.github.io/issues"
+  },
+  "homepage": "https://github.com/we-hate-bran/we-hate-bran.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
