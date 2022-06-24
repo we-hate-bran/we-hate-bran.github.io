@@ -2,7 +2,7 @@
   "name": "we-hate-bran.github.io",
   "version": "1.0.0",
   "description": "We hate bran",
-  "main": "index.js",
+  "main": "js/draw.js",
   "scripts": {
     "start": "lite-server"
   },
