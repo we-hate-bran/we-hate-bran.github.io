@@ -4,20 +4,34 @@
 <head>
     <title>We hate Bran</title>
     <link rel='stylesheet' href='./css/styles.css'>
+    <script src="./js/draw.js"/>
 </head>
 
 <body>
+<!-- CABECERA -->
 <header>
-    <h1>
+    <h1 class="tittle">
         Juego de tronos
     </h1>
 </header>
-<main>
-    <p>Probando</p>
-</main>
 
+<div class="tab">
+    <button class="tablinks active" onmouseover="openTab(event, 'tapPersonas')">Personajes</button>
+    <button class="tablinks" onmouseover="openTab(event, 'dibuja')">Dibuja GoT</button>
+</div>
+
+<div id="tapPersonas" class="tabcontent default row">
+</div>
+
+<div id="dibuja" class="tabcontent ">
+    <h3>Dibuja GoT</h3>
+    <p>Pendiente implementar</p>
+</div>
+
+
+<!-- FOOTER -->
 <footer>
-    <p>Copyright 2022 - <b>Luis Martin</b></p>
+    <p>Copyright 2022 - <b>Luis y Belén</b></p>
 </footer>
 </body>
 
